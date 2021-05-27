@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <xacro:include filename="$(find kobuki_lane)/models/diff_drive/parameter.xacro" />
+  <xacro:include filename="$(find rosbot)/models/diff_drive/parameter.xacro" />
   
   <!-- TODO: Add same update rates over parameter setting and define all parameters in config -->
   <!-- Differential Drive controller from Gazebo, TODO: Add noise by adapting the plugin -->
@@ -52,7 +52,7 @@
   <gazebo reference="laser_link">
     <sensor type="ray" name="head_hokuyo_sensor"> 
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>20</update_rate>
       <ray>
         <scan>

@@ -4,10 +4,10 @@
 <robot name="diff_drive" xmlns:xacro="http://www.ros.org/wiki/xacro">
   
   <!-- Start by including all required xacro files which hold the macros -->
-  <xacro:include filename="$(find kobuki_lane)/models/diff_drive/diff_drive.gazebo" />
-  <xacro:include filename="$(find kobuki_lane)/models/diff_drive/materials.xacro"   />
-  <xacro:include filename="$(find kobuki_lane)/models/diff_drive/macros.xacro"      />
-  <xacro:include filename="$(find kobuki_lane)/models/diff_drive/parameter.xacro"   />
+  <xacro:include filename="$(find rosbot)/models/diff_drive/diff_drive.gazebo" />
+  <xacro:include filename="$(find rosbot)/models/diff_drive/materials.xacro"   />
+  <xacro:include filename="$(find rosbot)/models/diff_drive/macros.xacro"      />
+  <xacro:include filename="$(find rosbot)/models/diff_drive/parameter.xacro"   />
 
  <!-- Create a dummy link as base link -->
   <link name='base_link'>

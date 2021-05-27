@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   
   <!-- Load config file, TODO: Add more parameter -->
-  <xacro:property name="package" value="$(find kobuki_lane)"/>
+  <xacro:property name="package" value="$(find rosbot)"/>
   <xacro:property name="properties" value="${load_yaml(package + '/config/config.yaml')}"/>
 	
   <!-- Define parameter for the differential drive robot -->
