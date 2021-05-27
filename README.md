@@ -5,6 +5,7 @@
 
 ```
 $ sudo apt-get install ros-noetic-desktop-full ros-noetic-teleop-twist-keyboard
+$ cp -r citysim/* /usr/local/share/
 ```
 
 ```
